@@ -13,7 +13,7 @@ public class Pelea {
     public static void iniciarPelea(Personaje zombiee, Personaje Vampiroo) {
         System.out.println(zombiee.nombre + " VS " + Vampiroo.nombre);
         
-        // Simulación de pelea basada en ataque y vida
+        
         while (zombiee.vida > 0 && Vampiroo.vida > 0) {
             Vampiroo.vida -= zombiee.ATK;
             System.out.println(zombiee.nombre + " ataca a " + Vampiroo.nombre + ", vida restante: " + Vampiroo.vida);
