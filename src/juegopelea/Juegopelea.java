@@ -14,13 +14,10 @@ public class Juegopelea {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        Mutante lv = new Mutante("Alex", 100, 100);
-        lv.volar();
-        
-        Mutante lv2 = new Mutante("Steel", 100, 100);
-        lv2.saltar();
-        //public Personaje(String nombre, int vida, int ATK) {
+        zombiee zombie = new zombiee("ZombieX", 120, 25);
+        Vampiroo vampiro = new Vampiroo("Drácula", 100, 30);
+
+        Pelea.iniciarPelea(zombie, vampiro);
         
     }
     
